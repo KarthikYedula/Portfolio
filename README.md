@@ -2,8 +2,9 @@
 
 HOME PAGE
 
+![Screenshot (67)](https://github.com/KarthikYedula/Portfolio/assets/152838292/05a4aeec-ed18-4662-a1f9-f282eaa4a919)
 
-[Screenshot (67)](https://github.com/KarthikYedula/Portfolio/assets/152838292/9b5142b8-5407-42d1-850e-f9838cee891d)
+
 
 ABOUT ME PAGE
 
