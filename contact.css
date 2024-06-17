@@ -1,0 +1,212 @@
+nav {
+    margin-top: 35px;
+    padding-left: 12.2%;
+  }
+  nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 700px;
+  }
+  nav li {
+    margin-right: 30px;
+  }
+  nav a {
+    display: block;
+    position: relative;
+    color: #fff;
+    font-size: 19px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  nav a:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #9e7f25;
+    width: 0px;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  nav a:hover:before {
+    visibility: visible;
+    width: 25px;
+  }
+  nav a:hover {
+    color: #12d640;
+    text-decoration: none;
+  }
+  .main-contact {
+    display: flex;
+    width: auto;
+  }
+  .contact-container {
+    width: 100%;
+    padding: 20% 10%;
+    margin-left: 6%;
+  }
+  .contact .contact-container .container-heading h1 {
+    text-align: center;
+    line-height: 1em;
+    font-size: 40px;
+    color: #dee2e6;
+  }
+  .contact-container .container-para1 p {
+    color: #dee2e6;
+    text-align: center;
+    padding-top: 15%;
+  }
+  .fields {
+    width: auto;
+    padding: 10% 10%;
+  }
+  .fields .row1 {
+    display: flex;
+  }
+  .fields .row2 {
+    display: flex;
+    margin-top: 5%;
+  }
+  .fields .fields-container1 input {
+    padding: 3px 3px 3px 5px;
+    height: 50px;
+    border: 0;
+    border-bottom: 2px solid #03a8f45e;
+    font-size: 1.4rem;
+    color: #dee2e6;
+    background-color: #010e1b;
+    transition: 0.3s ease-in-out;
+  }
+  .fields .fields-container1 input:hover {
+    border-color: #fff;
+  }
+  .fields .fields-container2 input {
+    padding: 3px 3px 3px 5px;
+    height: 50px;
+    border: 0;
+    border-bottom: 2px solid #03a8f45e;
+    font-size: 1.4rem;
+    color: #dee2e6;
+    background-color: #010e1b;
+    margin-left: 20%;
+    transition: 0.3s ease-in-out;
+  }
+  .fields .fields-container2 input:hover {
+    border-color: #fff;
+  }
+  .fields .fields-container3 input {
+    padding: 3px 3px 3px 5px;
+    height: 50px;
+    border: 0;
+    border-bottom: 2px solid #03a8f45e;
+    font-size: 1.4rem;
+    color: #dee2e6;
+    background-color: #010e1b;
+    transition: 0.3s ease-in-out;
+  }
+  .fields .fields-container3 input:hover {
+    border-color: #fff;
+  }
+  .fields .fields-container4 input {
+    padding: 3px 3px 3px 5px;
+    height: 50px;
+    border: 0;
+    border-bottom: 2px solid #03a8f45e;
+    font-size: 1.4rem;
+    color: #dee2e6;
+    background-color: #010e1b;
+    margin-left: 20%;
+    transition: 0.3s ease-in-out;
+  }
+  .fields .fields-container4 input:hover {
+    border-color: #fff;
+  }
+  .fields-container5 input {
+    padding: 3px 3px 3px 5px;
+    height: 50px;
+    border: 0;
+    border-bottom: 2px solid #03a8f45e;
+    font-size: 1.4rem;
+    color: #dee2e6;
+    background-color: #010e1b;
+    margin-top: 5%;
+    width: 110%;
+    transition: 0.3s ease-in-out;
+  }
+  .fields .fields-container5 input:hover {
+    border-color: #fff;
+  }
+  .fields-container6 input {
+    padding: 11.25px 10px 100px 5px;
+    height: 50px;
+    border: 0;
+    border-bottom: 2px solid #03a8f45e;
+    font-size: 1.4rem;
+    color: #dee2e6;
+    background-color: #010e1b;
+    margin-top: 5%;
+    width: 110%;
+    transition: 0.3s ease-in-out;
+  }
+  .fields .fields-container6 input:hover {
+    border-color: #fff;
+  }
+  .fields-container7 button {
+    padding: 3px 3px 3px 5px;
+    width: 110%;
+    margin-top: 2%;
+    border: none;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: 0.3s ease-in-out;
+    height: 50px;
+  }
+  .fields-container7 button:hover {
+    background-color: #dee2e6;
+    color: #010e1b;
+  }
+
+  /* ===============================RESPONSIVE======================================== */
+
+  @media (max-width:768px) {
+    nav {
+      padding-left: 0;
+    }
+    .contact-container {
+      padding: 7% 1%;
+      margin-left: 3%;
+  }
+  .main-contact {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .fields {
+    padding: 10% 14%;
+}
+  .fields .row1 {
+    display: contents;
+}
+.fields .row2 {
+  display: contents;
+}
+.fields .fields-container2 input {
+  margin-left: 0;
+}
+.fields .fields-container4 input {
+  margin-left: 0%;
+}
+.fields-container5 input {
+  width: auto;
+}
+.fields-container6 input {
+  width: auto;
+}
+.fields-container7 button {
+  width: 100%;
+}
+  }
+  

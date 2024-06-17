@@ -1,0 +1,85 @@
+nav {
+    margin-top: 35px;
+    padding-left: 12.2%;
+  }
+  nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 700px;
+  }
+  nav li {
+    margin-right: 30px;
+  }
+  nav a {
+    display: block;
+    position: relative;
+    color: #fff;
+    font-size: 19px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  nav a:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #9e7f25;
+    width: 0px;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  nav a:hover:before {
+    visibility: visible;
+    width: 25px;
+  }
+  nav a:hover {
+    color: #12d640;
+    text-decoration: none;
+  }
+.skills .container {
+    margin-top: 4%;
+    padding-left: 1.5%;
+  }
+  .skills .container .title h2 {
+    font-size: 26px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #dee2e6;
+    font-family: "Poppins", sans-serif;
+  }
+  .skills .row1 {
+    padding: 40px 40px;
+  }
+  .skills .row2 {
+    padding: 40px 40px;
+    margin-top: 10px;
+  }
+  .skills .row3 {
+    padding: 40px 40px;
+    margin-top: 10px;
+  }
+
+  /* ================================================RESPONSIVE=========================================== */
+
+  @media (max-width:768px) {
+    nav {
+      padding-left: 0;
+  }
+  .skills .container .title h2 {
+    font-size: 21px;
+  }
+  .skills .container {
+    padding-left: 5.5%;
+    padding-right: 4.5%;
+  }
+  .skills .row1 {
+    padding: 40px 30px;
+  }
+  }

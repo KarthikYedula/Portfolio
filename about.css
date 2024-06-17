@@ -1,0 +1,108 @@
+nav {
+    margin-top: 35px;
+  }
+  nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 700px;
+  }
+  nav li {
+    margin-right: 30px;
+  }
+  nav a {
+    display: block;
+    position: relative;
+    color: #fff;
+    font-size: 19px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  nav a:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #9e7f25;
+    width: 0px;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  nav a:hover:before {
+    visibility: visible;
+    width: 25px;
+  }
+  nav a:hover {
+    color: #12d640;
+    text-decoration: none;
+  }  
+.about-me {
+    position: relative;
+    padding-left: 12%;
+    overflow-x: hidden;
+  }
+  .title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #dee2e6;
+    font-family: "Poppins", sans-serif;
+  }
+  .about-me {
+    margin-top: 4%;
+  }
+  .about-me .row {
+    margin-top: 2%;
+  }
+  .about-me img {
+    height: 80%;
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  .about-me h2 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #dee2e6;
+  }
+  .about-me p {
+    color: #dee2e6;
+    max-width: 80%;
+  }
+  .about-me ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-me ul li {
+    padding-bottom: 10px;
+    color: #dee2e6;
+  }
+  
+  .about-me ul i {
+    font-size: 20px;
+    padding-right: 2px;
+    color: #1c7d32;
+  }
+  .container2 nav {
+    padding-left: 29.5%;
+  }
+
+  /* ==============================================RESPONSIVE============================================= */
+@media (max-width:768px) {
+  .about-me img {
+    height: 86%;
+}
+.about-me h2 {
+  font-size: 20px;
+}
+.about-me p {
+  max-width: 100%;
+  padding-right: 40px;
+}
+}
